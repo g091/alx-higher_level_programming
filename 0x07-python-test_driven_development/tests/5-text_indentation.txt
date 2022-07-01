@@ -1,0 +1,72 @@
+The `text_indentation` module
+========================
+
+Usage of the `text_indentation` function
+-----------------------------------
+
+Import Function
+
+	>>> text_indentation = __import__('5-text_indentation').text_indentation
+	
+Test
+	
+	>>> text_indentation("Hello World.")
+	Hello World.
+	<BLANKLINE>
+
+	>>> text_indentation("Cats love catnip. Dogs love chicken.")
+	Cats love catnip.
+	<BLANKLINE>
+	Dogs love chicken.
+	<BLANKLINE>
+
+	>>> text_indentation("Cats love fish. Dogs love: chicken and meat.")
+	Cats love fish.
+	<BLANKLINE>
+	Dogs love:
+	<BLANKLINE>
+	chicken and meat.
+	<BLANKLINE>
+
+	>>> text_indentation("What's that? It's a cat.")
+	What's that?
+	<BLANKLINE>
+	It's a cat.
+	<BLANKLINE>
+
+	>>> text_indentation(".    : ?")
+	.
+	<BLANKLINE>
+	:
+	<BLANKLINE>
+	?
+	<BLANKLINE>
+
+	>>> text_indentation(1)
+	Traceback (most recent call last):
+    	TypeError: text must be a string
+
+	>>> text_indentation("10000000000000?")
+	10000000000000?
+	<BLANKLINE>
+
+	>>> text_indentation("Cat Dog Fish")
+	Cat Dog Fish
+
+	>>> text_indentation("Cat Dog Fish.")
+	Cat Dog Fish.
+	<BLANKLINE>
+
+
+	>>> text_indentation("")
+
+	>>> text_indentation()
+    	Traceback (most recent call last):
+	TypeError: text_indentation() missing 1 required positional argument: 'text'
+
+	>>> text_indentation("Hello.\nWorld")
+        Hello.
+        <BLANKLINE>
+        <BLANKLINE>
+        World
+
