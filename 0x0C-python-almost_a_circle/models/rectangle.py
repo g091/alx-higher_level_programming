@@ -58,7 +58,7 @@ class Rectangle(Base):
                     self.x = arg
                 if c == 4:
                     self.y = arg
-                if c == None:
+                if c is None:
                     break
 
             return  # ignore kwargs
