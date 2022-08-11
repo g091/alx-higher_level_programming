@@ -1,6 +1,6 @@
-### SQL Intro README.
+# SQL Intro README.
 
-# Mandatory Tasks
+### Mandatory Tasks
 
 ***0. Write a script that lists all databases of your MySQL server.***
 
