@@ -1,6 +1,6 @@
 # SQL More Queries README.
 
-#### Mandatory Tasks
+#### MANDATORY TASKS
 
 ***0. Write a script that lists all privileges of the MySQL users user_0d_1 and user_0d_2 on your server (in localhost).***
 
@@ -139,5 +139,43 @@
 	- If a show doesn’t have a genre, display NULL in the genre column
 	- Each record should display: tv_shows.title - tv_genres.name
 	- Results must be sorted in ascending order by the show title and genre name
+	- Use only one SELECT statement
+	- The database name will be passed as an argument of the mysql command
+
+#### ADVANCED TASKS
+
+***17. Write a script that uses the hbtn_0d_tvshows database to list all genres not linked to the show Dexter.***
+
+###### Import the database dump of hbtn_0d_tvshows to your MySQL server (q16)
+
+	- The tv_shows table contains only one record where title = Dexter (the id can be different)
+	- Each record should display: tv_genres.name
+	- Results must be sorted in ascending order by the genre name
+	- Use a maximum of two SELECT statement
+	- The database name will be passed as an argument of the mysql command
+
+***18. Write a script that lists all shows without the genre Comedy in the database hbtn_0d_tvshows.***
+
+###### Import the database dump from hbtn_0d_tvshows to your MySQL server (q17)
+
+	- The tv_genres table contains only one record where name = Comedy (the id can be different)
+	- Each record should display: tv_shows.title
+	- Results must be sorted in ascending order by the show title
+	- Use a maximum of two SELECT statement
+	- The database name will be passed as an argument of the mysql command
+
+***19. Write a script that lists all shows from hbtn_0d_tvshows_rate by their rating.***
+
+###### Import the database hbtn_0d_tvshows_rate dump to your MySQL server: (q18)
+
+	- Each record should display: tv_shows.title - rating sum
+	- Results must be sorted in descending order by the rating
+	- Use only one SELECT statement
+	- The database name will be passed as an argument of the mysql command
+
+***20. Write a script that lists all genres in the database hbtn_0d_tvshows_rate by their rating.***
+
+	- Each record should display: tv_genres.name - rating sum
+	- Results must be sorted in descending order by their rating
 	- Use only one SELECT statement
 	- The database name will be passed as an argument of the mysql command
