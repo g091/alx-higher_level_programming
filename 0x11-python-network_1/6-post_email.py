@@ -7,7 +7,7 @@ import requests
 import sys
 
 if __name__ == "__main__":
-    url = argv[1]
+    url = sys.argv[1]
     values = {'email': argv[2]}
     body = requests.post(url, data=values)
     print(body.text)
