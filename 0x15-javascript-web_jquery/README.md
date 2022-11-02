@@ -215,8 +215,8 @@ guillaume@ubuntu:~/0x15$
 - Test file:
   
   <pre><code>guillaume@ubuntu:~/0x15$ cat 6-main.html 
-&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&quot;&gt;
+  &lt;!DOCTYPE html&gt;
+  &lt;html lang=&quot;en&quot;&gt;
   &lt;head&gt;
     &lt;title&gt;Holberton School&lt;/title&gt;
     &lt;script src=&quot;https://code.jquery.com/jquery-3.2.1.min.js&quot;&gt;&lt;/script&gt;
@@ -232,14 +232,14 @@ guillaume@ubuntu:~/0x15$
       Holberton School - 2017
     &lt;/footer&gt;
     &lt;script type=&quot;text/javascript&quot; src=&quot;6-script.js&quot;&gt;&lt;/script&gt;
-  &lt;/body&gt;
-&lt;/html&gt;
-guillaume@ubuntu:~/0x15$ 
-</code></pre>
-
-  </div>
-
-  <div class="list-group">
+    &lt;/body&gt;
+    &lt;/html&gt;
+    guillaume@ubuntu:~/0x15$ 
+    </code></pre>
+    
+    </div>
+    
+    <div class="list-group">
   
 ***7. JavaScript script that fetches the character name from this URL: https://swapi-api.hbtn.io/api/people/5/?format=json***
   
@@ -250,8 +250,8 @@ guillaume@ubuntu:~/0x15$
 - Test file:
   
   <pre><code>guillaume@ubuntu:~/0x15$ cat 7-main.html 
-&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&quot;&gt;
+  &lt;!DOCTYPE html&gt;
+  &lt;html lang=&quot;en&quot;&gt;
   &lt;head&gt;
     &lt;title&gt;Holberton School&lt;/title&gt;
     &lt;script src=&quot;https://code.jquery.com/jquery-3.2.1.min.js&quot;&gt;&lt;/script&gt;
@@ -268,9 +268,9 @@ guillaume@ubuntu:~/0x15$
     &lt;/footer&gt;
     &lt;script type=&quot;text/javascript&quot; src=&quot;7-script.js&quot;&gt;&lt;/script&gt;
   &lt;/body&gt;
-&lt;/html&gt;
-guillaume@ubuntu:~/0x15$ 
-</code></pre>
+  &lt;/html&gt;
+  guillaume@ubuntu:~/0x15$ 
+  </code></pre>
 
   </div>
 
@@ -284,9 +284,9 @@ guillaume@ubuntu:~/0x15$
   
 - Test file:
   
-  <pre><code>guillaume@ubuntu:~/0x15$ cat 8-main.html 
-&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&quot;&gt;
+  <pre><code>guillaume@ubuntu:~/0x15$ cat 8-main.html
+  &lt;!DOCTYPE html&gt;
+  &lt;html lang=&quot;en&quot;&gt;
   &lt;head&gt;
     &lt;title&gt;Holberton School&lt;/title&gt;
     &lt;script src=&quot;https://code.jquery.com/jquery-3.2.1.min.js&quot;&gt;&lt;/script&gt;
@@ -303,14 +303,14 @@ guillaume@ubuntu:~/0x15$
       Holberton School - 2017
     &lt;/footer&gt;
     &lt;script type=&quot;text/javascript&quot; src=&quot;8-script.js&quot;&gt;&lt;/script&gt;
-  &lt;/body&gt;
-&lt;/html&gt;
-guillaume@ubuntu:~/0x15$ 
-</code></pre>
-
-  </div>
-
-  <div class="list-group">
+    &lt;/body&gt;
+    &lt;/html&gt;
+    guillaume@ubuntu:~/0x15$ 
+    </code></pre>
+    
+    </div>
+    
+    <div class="list-group">
  
 ***9. JavaScript script that fetches from https://fourtonfish.com/hellosalut/?lang=fr and displays the value of hello from that fetch in the HTML tag DIV#hello.***
   
@@ -322,8 +322,8 @@ guillaume@ubuntu:~/0x15$
 - Test file:
   
   <pre><code>guillaume@ubuntu:~/0x15$ cat 9-main.html 
-&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&quot;&gt;
+  &lt;!DOCTYPE html&gt;
+  &lt;html lang=&quot;en&quot;&gt;
   &lt;head&gt;
     &lt;title&gt;Holberton School&lt;/title&gt;
     &lt;script src=&quot;https://code.jquery.com/jquery-3.2.1.min.js&quot;&gt;&lt;/script&gt;
@@ -340,9 +340,9 @@ guillaume@ubuntu:~/0x15$
       Holberton School - 2017
     &lt;/footer&gt;
   &lt;/body&gt;
-&lt;/html&gt;
-guillaume@ubuntu:~/0x15$ 
-</code></pre>
+  &lt;/html&gt;
+  guillaume@ubuntu:~/0x15$ 
+  </code></pre>
 
   </div>
 
@@ -351,7 +351,7 @@ guillaume@ubuntu:~/0x15$
 
 ### Advanced Task
 
-***10. JavaScript script that updates the text color of the <header> element to red (#FF0000)***
+***10. JavaScript script that updates the text color of the \<header> element to red (#FF0000)***
 
 	* Use document.querySelector to select the HTML tag
 	* Don't use the jQuery API
