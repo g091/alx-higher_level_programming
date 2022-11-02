@@ -207,12 +207,12 @@ guillaume@ubuntu:~/0x15$
 
   <div class="list-group">
   
-  ***6. JavaScript script that updates the text of the <header> element to New Header!!! when the user clicks on DIV#update_header***
+***6. JavaScript script that updates the text of the <header> element to New Header!!! when the user clicks on DIV#update_header***
   
   	* Don't use document.querySelector to select the HTML tag
 	* Use the JQuery API
   
-  - Test file:
+- Test file:
   
   <pre><code>guillaume@ubuntu:~/0x15$ cat 6-main.html 
 &lt;!DOCTYPE html&gt;
@@ -241,13 +241,13 @@ guillaume@ubuntu:~/0x15$
 
   <div class="list-group">
   
-  ***7. JavaScript script that fetches the character name from this URL: https://swapi-api.hbtn.io/api/people/5/?format=json***
+***7. JavaScript script that fetches the character name from this URL: https://swapi-api.hbtn.io/api/people/5/?format=json***
   
   	* The name must be displayed in the HTML tag DIV#character
 	* Don’t use document.querySelector to select the HTML tag
 	* Use the JQuery API
   
-  - Test file:
+- Test file:
   
   <pre><code>guillaume@ubuntu:~/0x15$ cat 7-main.html 
 &lt;!DOCTYPE html&gt;
@@ -276,13 +276,13 @@ guillaume@ubuntu:~/0x15$
 
   <div class="list-group">
   
-  ***8. JavaScript script that fetches and lists the title for all movies by using this URL: https://swapi-api.hbtn.io/api/films/?format=json***
+***8. JavaScript script that fetches and lists the title for all movies by using this URL: https://swapi-api.hbtn.io/api/films/?format=json***
   
 	* All movie titles must be list in the HTML tag UL#list_movies
 	* Don’t use document.querySelector to select the HTML tag
 	* Use the JQuery API
   
-  - Test file:
+- Test file:
   
   <pre><code>guillaume@ubuntu:~/0x15$ cat 8-main.html 
 &lt;!DOCTYPE html&gt;
@@ -311,15 +311,15 @@ guillaume@ubuntu:~/0x15$
   </div>
 
   <div class="list-group">
-  
-  ***9. JavaScript script that fetches from https://fourtonfish.com/hellosalut/?lang=fr and displays the value of hello from that fetch in the HTML tag DIV#hello.***
+ 
+***9. JavaScript script that fetches from https://fourtonfish.com/hellosalut/?lang=fr and displays the value of hello from that fetch in the HTML tag DIV#hello.***
   
 	* The translation of “hello” must be displayed in the HTML tag DIV#hello
 	* Don’t use document.querySelector to select the HTML tag
 	* Use the JQuery API
-	* The script must work when it is imported from the <head> tag
+	* The script must work when it is imported from the <head> tag.
   
-  - Test file:
+- Test file:
   
   <pre><code>guillaume@ubuntu:~/0x15$ cat 9-main.html 
 &lt;!DOCTYPE html&gt;
@@ -346,10 +346,4 @@ guillaume@ubuntu:~/0x15$
 
   </div>
 
-  <div class="list-group">
-  
-  
-  
-  
-  
-  
+  <div class="list-group">  
