@@ -346,4 +346,13 @@ guillaume@ubuntu:~/0x15$
 
   </div>
 
-  <div class="list-group">  
+  <div class="list-group">
+
+
+### Advanced Task
+
+***10. JavaScript script that updates the text color of the <header> element to red (#FF0000)***
+
+	* Use document.querySelector to select the HTML tag
+	* Don't use the jQuery API
+	* The script must be imported from the <head> tag, not at the end of the HTML
